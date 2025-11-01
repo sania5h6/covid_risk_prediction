@@ -1,0 +1,9 @@
+pandas
+numpy
+scikit-learn
+streamlit
+kafka-python
+psycopg2-binary
+pyarrow
+joblib
+

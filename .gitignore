@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.ipynb_checkpoints/
+
+# Virtual env & secrets
+.venv/
+.env
+.env.*
+
+# OS debris
+.DS_Store
+
+# Data / Artifacts (keep repo light)
+dataset/
+data/
+logs/
+
+# Models (keep out or use LFS)
+models/*.joblib
+models/*.pkl
+
+# Streamlit cache
+.streamlit/
+.env
+.venv/

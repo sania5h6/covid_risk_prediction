@@ -1,0 +1,22 @@
+{
+  "data_path": "dataset/us-covid_19-202.parquet",
+  "metrics": {
+    "accuracy": 0.9579221098325075
+  },
+  "features": [
+    "new_cases",
+    "new_cases_lag1",
+    "new_cases_lag3",
+    "new_cases_lag7",
+    "new_cases_roll7_mean",
+    "deaths",
+    "dow",
+    "state_le",
+    "county_le"
+  ],
+  "label": "label_increase",
+  "encoders": [
+    "state_le",
+    "county_le"
+  ]
+}
