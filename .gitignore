@@ -25,3 +25,16 @@ models/*.pkl
 .streamlit/
 .env
 .venv/
+
+# --- local secrets / runtime / IDE ---
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+
+# datasets (use a tiny sample instead)
+dataset/*.csv
+dataset/*.parquet
+!dataset/README.md
